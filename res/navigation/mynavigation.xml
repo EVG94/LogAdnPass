@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynavigation"
+    app:startDestination="@id/spisokSpecFragment">
+    <fragment
+        android:id="@+id/spisokSpecFragment"
+        android:name="com.example.a65test.SpisokSpecFragment"
+        android:label="65 App"
+        tools:layout="@layout/fragment_spisok_spec">
+        <action
+            android:id="@+id/action_spisokSpecFragment2_to_spisokRabotnikov2"
+            app:destination="@id/spisokRabotnikov" />
+        <action
+            android:id="@+id/action_spisokSpecFragment2_to_fullSpisok2"
+            app:destination="@id/fullSpisok" />
+        <action
+            android:id="@+id/action_spisokSpecFragment2_to_spisokRazrabotchikov2"
+            app:destination="@id/spisokRazrabotchikov" />
+    </fragment>
+    <fragment
+        android:id="@+id/spisokRabotnikov"
+        android:name="com.example.a65test.SpisokRabotnikov"
+        android:label="Managers"
+        tools:layout="@layout/fragment_spisok_rabotnikov" >
+        <action
+            android:id="@+id/action_spisokRabotnikov_to_name1Fragment2"
+            app:destination="@id/name1Fragment" />
+        <action
+            android:id="@+id/action_spisokRabotnikov_to_name2Fragment2"
+            app:destination="@id/name2Fragment" />
+        <action
+            android:id="@+id/action_spisokRabotnikov_to_name3Fragment"
+            app:destination="@id/name3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fullSpisok"
+        android:name="com.example.a65test.FullSpisok"
+        android:label="Full List"
+        tools:layout="@layout/fragment_full_spisok" />
+    <fragment
+        android:id="@+id/spisokRazrabotchikov"
+        android:name="com.example.a65test.SpisokRazrabotchikov"
+        android:label="Developers"
+        tools:layout="@layout/fragment_spisok_razrabotchikov" >
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name4Fragment"
+            app:destination="@id/name4Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name5Fragment"
+            app:destination="@id/name5Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name6Fragment"
+            app:destination="@id/name6Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name7Fragment"
+            app:destination="@id/name7Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name8Fragment"
+            app:destination="@id/name8Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name9Fragment"
+            app:destination="@id/name9Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name10Fragment"
+            app:destination="@id/name10Fragment" />
+        <action
+            android:id="@+id/action_spisokRazrabotchikov_to_name11Fragment"
+            app:destination="@id/name11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/name1Fragment"
+        android:name="com.example.a65test.name1Fragment"
+        android:label="Info by Ivan"
+        tools:layout="@layout/fragment_name1" />
+    <fragment
+        android:id="@+id/name2Fragment"
+        android:name="com.example.a65test.name2Fragment"
+        android:label="Info by Petr" />
+    <fragment
+        android:id="@+id/name3Fragment"
+        android:name="com.example.a65test.name3Fragment"
+        android:label="Info by Vasiliy"
+        tools:layout="@layout/fragment_name3" />
+    <fragment
+        android:id="@+id/name4Fragment"
+        android:name="com.example.a65test.name4Fragment"
+        android:label="Info by Vasiliy"
+        tools:layout="@layout/fragment_name4" />
+    <fragment
+        android:id="@+id/name5Fragment"
+        android:name="com.example.a65test.name5Fragment"
+        android:label="Info by Ekaterina"
+        tools:layout="@layout/fragment_name5" />
+    <fragment
+        android:id="@+id/name6Fragment"
+        android:name="com.example.a65test.name6Fragment"
+        android:label="Info by Nikolay"
+        tools:layout="@layout/fragment_name6" />
+    <fragment
+        android:id="@+id/name7Fragment"
+        android:name="com.example.a65test.name7Fragment"
+        android:label="Info by Viktor"
+        tools:layout="@layout/fragment_name7" />
+    <fragment
+        android:id="@+id/name8Fragment"
+        android:name="com.example.a65test.name8Fragment"
+        android:label="Info by Artur"
+        tools:layout="@layout/fragment_name8" />
+    <fragment
+        android:id="@+id/name9Fragment"
+        android:name="com.example.a65test.name9Fragment"
+        android:label="Info by Artur"
+        tools:layout="@layout/fragment_name9" />
+    <fragment
+        android:id="@+id/name10Fragment"
+        android:name="com.example.a65test.name10Fragment"
+        android:label="Info by Ruslan"
+        tools:layout="@layout/fragment_name10" />
+    <fragment
+        android:id="@+id/name11Fragment"
+        android:name="com.example.a65test.name11Fragment"
+        android:label="Info by Vladimir"
+        tools:layout="@layout/fragment_name11" />
+</navigation>

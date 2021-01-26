@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spisokManager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    tools:context=".SpisokRabotnikov">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Managers"
+        android:textColor="@color/black"
+        android:textSize="33sp" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <TextView
+            android:id="@+id/tvIvan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иван Иванов - "
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/vozrastIvan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout2"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <TextView
+            android:id="@+id/tvPetr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петр Петров - "
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/vozrastPetr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout3"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <TextView
+            android:id="@+id/tvVasya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вася Пупкин - "
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/vozrastVasya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

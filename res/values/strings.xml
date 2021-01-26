@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">65Test</string>
+    <string name="birhday">День Рождения:</string>
+    <string name="last_name">Фамилия:</string>
+    <string name="first_name">Имя:</string>
+    <string name="id_spec">Код Специальности:</string>
+    <string name="name_spec">Специальность:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

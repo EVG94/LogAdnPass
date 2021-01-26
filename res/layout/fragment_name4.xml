@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="100dp"
+    android:paddingRight="5dp"
+    tools:context=".name1Fragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_header"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/f_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="@string/first_name"
+                android:textSize="19sp"
+                tools:ignore="TextViewEdits" />
+
+
+            <TextView
+                android:id="@+id/l_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/f_name"
+
+                android:text="@string/last_name"
+                android:textSize="19sp" />
+
+
+            <TextView
+                android:id="@+id/birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l_name"
+
+                android:text="@string/birhday"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/birthday"
+                android:text="Возраст "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/spec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/age"
+                android:text="Специальность "
+                android:textSize="19sp" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

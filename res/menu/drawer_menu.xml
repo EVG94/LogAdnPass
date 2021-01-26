@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Main"
+        android:id="@+id/spisokSpecFragment"
+        android:icon="@drawable/ic_baseline_computer_24"/>
+
+
+    <item
+        android:title="Managers"
+        android:id="@+id/spisokRabotnikov"
+        android:icon="@drawable/ic_baseline_managers"/>
+    <item
+        android:title="Developers"
+        android:id="@+id/spisokRazrabotchikov"
+        android:icon="@drawable/ic_baseline_developers"/>
+
+    <item
+        android:title="Full list"
+        android:id="@+id/fullSpisok"
+        android:icon="@drawable/ic_baseline_open_in_full_24"/>
+
+
+</menu>
